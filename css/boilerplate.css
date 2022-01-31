@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+
+:root {
+  --primary-color: #2793f8;
+  --brand-color: #1a73e8;
+  --secondary-color: #2b4669;
+  --grey: #9a9a9a;
+  --lynx-gray: #c5c5c5;
+  --black: #282828;
+  --white: #ffffff;
+  --light-blue: #b4d9fb;
+  --red: #62020a;
+  --green: #012e03;
+  --orange: #754701;
+  --dark: #303030;
+  --light-red: #fcd0d4;
+  --light-green: #cffad0;
+  --light-orange: #fddfb1;
+  --secondary: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
