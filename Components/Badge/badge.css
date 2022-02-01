@@ -1,0 +1,52 @@
+@import "../../css/boilerplate.css";
+@import "../../components/Avatar/avatar.css";
+
+.badge {
+  position: relative;
+  width: fit-content;
+}
+
+.badge-on-avatar {
+  position: absolute;
+  width: 28%;
+  height: 28%;
+  right: 3%;
+  bottom: 2%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.status-online {
+  background-color: var(--green);
+}
+
+.status-offline {
+  background-color: grey;
+}
+.status-idle {
+  background-color: var(--orange);
+}
+.status-dnd {
+  background-color: var(--red);
+}
+
+.badge-number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: var(--white);
+  background-color: var(--red);
+  top: 0;
+  right: -15%;
+  text-align: center;
+}
+
+.material-icons-outlined {
+  font-size: 2.5rem;
+  color: var(--black);
+}
