@@ -73,6 +73,11 @@
   flex-direction: column;
 }
 
+.utility-preview {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .avatar-preview {
   gap: 10px;
 }
