@@ -47,6 +47,31 @@
 }
 
 .material-icons-outlined {
-  font-size: 2.5rem;
+  font-size: 40px;
   color: var(--black);
+  cursor: pointer;
+}
+
+.badge-on-icon-md .material-icons-outlined {
+  font-size: 30px;
+}
+
+.badge-on-icon-sm .material-icons-outlined {
+  font-size: 24px;
+}
+
+.badge-on-icon-sm .badge-number {
+  min-width: 1.25rem;
+  height: 1.25rem;
+  font-size: 0.75rem;
+  top: -0.5rem;
+  right: -0.7rem;
+}
+
+.badge-on-icon-md .badge-number {
+  min-width: 1.25rem;
+  height: 1.25rem;
+  font-size: 0.75rem;
+  top: -12%;
+  right: -20%;
 }

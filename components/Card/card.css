@@ -8,6 +8,7 @@
   height: max-content;
   border-radius: 8px;
   background: var(--white);
+  border: 1px solid var(--light-grey);
 }
 
 .text-only-card {
@@ -205,6 +206,7 @@
 
 .card-shadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 30px -10px;
+  border: none;
 }
 
 /* screen above 600px - tablet, desktop */
