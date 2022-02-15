@@ -42,6 +42,7 @@
   color: var(--grey);
   font-weight: 400;
   transition: all 0.2s ease;
+  outline: none;
 }
 
 .sidebar-subcategory li a:hover {
